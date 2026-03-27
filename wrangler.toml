@@ -1,0 +1,8 @@
+name = "lamaria-backend"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+
+# This connects your Worker to your KV Namespace
+[[kv_namespaces]]
+binding = "SALSA_KV"
+id = "860bb2d9e4d941348fdcc5f9ac9a9431"
